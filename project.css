@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1C2230;
+}
+#illustration{
+    width: 400px;
+    height: auto;
+    margin-top: 80px;
+}
+#curve{
+    width: 100%;
+    top: -155px;
+    height: 40vh;
+    position: relative;
+    z-index: -1;
+
+}
+.colour{
+    background-color:#181E2A;
+    height: 270vh;
+    width: 100%;
+    margin-top: -189px;
+}
+#p-card-1{
+    height: 70px;
+    width: 70px;
+}
+#p-card-2{
+    width: 90px;
+    height: 65px;
+}
+.card{
+    border: none;
+    background-color: #181E2A;
+    margin-top: 150px;
+}
+
+    
+p{
+    font-size: 11px;
+
+}
+#people{
+    margin-top: 50px;
+}
+#none{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+}
+#profile{
+    width: 18rem;
+    height: 140px;
+    background-color: #21293C;
+}
+#card-p{
+    font-size: 10px;
+}
+#card-img{
+    border-radius: 60px;
+    width: 20px;
+    margin-top: 10px;
+}
+#Satish{
+    font-size: 10px;
+    
+}
+#down{
+    font-size: 7px;
+    margin-left: 26px;
+    margin-top: -08px;
+}
+.sign-up{
+    width: 60%;
+    height: 230px;
+    margin: auto;
+    background-color: #1C2230;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 90px;
+}    
+.sign-up-input{
+     margin-bottom: 15px;
+}
+form{
+margin-top: 30px;
+}
+input[type="email"]{
+       width: 500px;
+       padding: 14px 20px;
+        border: none;
+       outline: none;
+       border-radius: 26px;
+       background-color: white;
+        margin-right: 25px;
+}
+input[type="submit"]{
+    width: 200px;
+    padding: 14px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #4BC2D2;
+    border-radius: 26px;
+}
+footer{
+    width: 100% !important;
+    height: 80vh;
+  
+    background-color: #0C1524;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -170px;
+    
+}
+footer .logo{
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+#address{
+    font-size: 13px;
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    transform: translateY(190px);
+    display: flex;
+    justify-content: space-between;
+            
+}
+li{
+    list-style: none;
+    height: 2rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             /* Responsivenesss */
+@media screen and (min-width: 360px) {
+    body{
+        overflow-x: hidden;
+    }
+#head{
+      background-color: hsl(222, 26%, 15%) ;
+      height: 70px;}
+#up{
+    height: 40px;
+    width: 100px;      
+    }
+#me{
+    width: 190px;
+    height: 4vh;
+    display: flex !important;
+    flex-direction: row;                    
+  }
+  #illustration{
+    width: 400px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.nav-item{
+    margin: 0px 3px;
+}
+#curve{
+    width: 100%;
+    top: -185px;
+    height: 40vh;
+    position: relative;
+    z-index: -1;
+}
+#card-1{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+#card-2{
+    margin-left: 80px;
+    margin-top: 120px;
+}
+#people{
+    margin-top: 50px;
+}
+#pro{
+    transform: translateX(70px);
+    margin: 30px;
+}
+.card{
+    border: none;
+    background-color: #181E2A;
+    margin-top: 50px;
+}
+
+}        
+
+
+                       
+                
+               
+    
